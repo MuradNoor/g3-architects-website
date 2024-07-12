@@ -194,6 +194,20 @@ main{
     height: 90%;
     margin-left: 90px;
 }
+
+/* footer styles */
+.footer-style{
+    background-color: #FFF4E7;
+    text-align: center;
+    margin: 130px 240px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.footer-style p{
+    padding-top: 25px;
+    font-weight: 400;
+}
 /* responsive media queries */
 
 /* Mobile  */
@@ -228,6 +242,14 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+    .footer-style{
+        background-color: #FFF4E7;
+        width: 90%;
+        margin-left: 5px;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
 }
 
 /* taglets or medium devices */
@@ -245,5 +267,13 @@ main{
         gap: 20px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .footer-style{
+        background-color: #FFF4E7;
+        width: 90%;
+        margin-left: 35px;
+        margin-right: 0;
+        margin-bottom: 0;
+        text-align: center;
     }
 }
